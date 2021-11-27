@@ -8,54 +8,59 @@
     tools:context=".RegisterActivity">
 
     <LinearLayout
+        android:id="@+id/layoutReg1"
         android:layout_width="match_parent"
         android:layout_height="195dp"
         android:orientation="vertical"></LinearLayout>
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/editTextTextPersonNameReg"
+        android:layout_width="245dp"
+        android:layout_height="64dp"
         android:layout_gravity="center"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Name" />
+        android:hint="Name"
+        android:inputType="textPersonName" />
 
     <LinearLayout
+        android:id="@+id/layoutReg2"
         android:layout_width="match_parent"
         android:layout_height="20dp"
         android:orientation="vertical"></LinearLayout>
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/editTextTextEmailAddressReg"
+        android:layout_width="245dp"
+        android:layout_height="64dp"
         android:layout_gravity="center"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress" />
 
     <LinearLayout
+        android:id="@+id/layoutReg3"
         android:layout_width="match_parent"
         android:layout_height="20dp"
         android:orientation="vertical"></LinearLayout>
 
     <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/editTextTextPasswordReg"
+        android:layout_width="247dp"
+        android:layout_height="56dp"
         android:layout_gravity="center"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword" />
 
     <LinearLayout
+        android:id="@+id/layoutReg4"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:orientation="vertical"></LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

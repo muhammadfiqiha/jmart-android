@@ -8,12 +8,13 @@
     tools:context=".LoginActivity">
 
     <LinearLayout
+        android:id="@+id/layoutLog1"
         android:layout_width="match_parent"
         android:layout_height="195dp"
         android:orientation="vertical"></LinearLayout>
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress4"
+        android:id="@+id/editTextTextEmailAddressLog"
         android:layout_width="234dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -22,12 +23,13 @@
         android:inputType="textEmailAddress" />
 
     <LinearLayout
+        android:id="@+id/layoutLog2"
         android:layout_width="match_parent"
         android:layout_height="32dp"
         android:orientation="vertical"></LinearLayout>
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextTextPasswordLog"
         android:layout_width="232dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -36,23 +38,26 @@
         android:inputType="textPassword" />
 
     <LinearLayout
+        android:id="@+id/layoutLog3"
         android:layout_width="match_parent"
         android:layout_height="29dp"
         android:orientation="vertical"></LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Login" />
 
     <LinearLayout
+        android:id="@+id/layoutLog4"
         android:layout_width="match_parent"
         android:layout_height="21dp"
         android:orientation="vertical"></LinearLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewLog1"
         android:layout_width="214dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -61,7 +66,7 @@
         android:textColor="#1AA7EC" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewLog2"
         android:layout_width="214dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

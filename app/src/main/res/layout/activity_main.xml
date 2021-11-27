@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/layoutMain1"
         android:layout_width="match_parent"
         android:layout_height="324dp"
         android:orientation="vertical"></LinearLayout>
@@ -18,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="Hello User!"
+        android:text="Hello user!"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="40dp"
