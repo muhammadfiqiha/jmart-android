@@ -1,6 +1,7 @@
 package com.fiqihJmartPK.jmart_android;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,7 +30,7 @@ public class RegisterActivity extends AppCompatActivity {
         LinearLayout layout2 = (LinearLayout)findViewById(R.id.layoutReg2);
         LinearLayout layout3 = (LinearLayout)findViewById(R.id.layoutReg3);
         LinearLayout layout4 = (LinearLayout)findViewById(R.id.layoutReg4);
-        Button regButton = (Button)findViewById(R.id.registerButton);
+        AppCompatButton regButton = (AppCompatButton) findViewById(R.id.registerButton);
         EditText edName = (EditText)findViewById(R.id.editTextTextPersonNameReg);
         EditText edEmail = (EditText)findViewById(R.id.editTextTextEmailAddressReg);
         EditText edPassword = (EditText)findViewById(R.id.editTextTextPasswordReg);

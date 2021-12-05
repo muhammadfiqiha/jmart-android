@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">jmart-android</string>
+    <string name="about_me">About Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="shipmentPlans">
+        <item>INSTANT</item>
+        <item>SAME DAY</item>
+        <item>NEXT DAY</item>
+        <item>REGULER</item>
+        <item>KARGO</item>
+    </string-array>
+    <string-array name="productCategory">
+        <item>ART CRAFT</item>
+        <item>AUTOMOTIVE</item>
+        <item>BOOK</item>
+        <item>CARPENTRY</item>
+        <item>COSMETICS</item>
+        <item>ELECTRONIC</item>
+        <item>FASHION</item>
+        <item>FNB</item>
+        <item>FURNITURE</item>
+        <item>GADGET</item>
+        <item>GAMING</item>
+        <item>HEALTHCARE</item>
+        <item>JEWELRY</item>
+        <item>KITCHEN</item>
+        <item>MISCELLANEOUS</item>
+        <item>MOTHERCARE</item>
+        <item>PETCARE</item>
+        <item>PROPERTY</item>
+        <item>SPORTS</item>
+        <item>STATIONERY</item>
+        <item>TOYS</item>
+        <item>TRAVEL</item>
+        <item>WEDDING</item>
+    </string-array>
+    <string name="product">Product</string>
+    <string name="filter">Filter</string>
+    <string name="prev">PREV</string>
+    <string name="action_settings">Settings</string>
+
 </resources>

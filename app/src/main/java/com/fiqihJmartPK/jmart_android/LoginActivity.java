@@ -1,6 +1,7 @@
 package com.fiqihJmartPK.jmart_android;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -36,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Button login = (Button)findViewById(R.id.loginButton);
+        AppCompatButton login = (AppCompatButton) findViewById(R.id.loginButton);
         EditText edEmail = (EditText)findViewById(R.id.editTextTextEmailAddressLog);
         EditText edPassword = (EditText)findViewById(R.id.editTextTextPasswordLog);
         TextView dontHave = (TextView)findViewById(R.id.textViewLog1);
@@ -63,13 +64,13 @@ public class LoginActivity extends AppCompatActivity {
                         try{
                             JSONObject obj = new JSONObject(response);
                             if(obj != null){
-                                Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT);
+                                Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_LONG);
                                 loggedAccount = gson.fromJson(obj.toString(), Account.class);
                                 Intent intentMain = new Intent(LoginActivity.this, MainActivity.class);
                                 startActivity(intentMain);
                             }
                         } catch(JSONException e){
-                            Toast.makeText(LoginActivity.this, "Login Failed", Toast.LENGTH_SHORT);
+                            Toast.makeText(LoginActivity.this, "Login Failed", Toast.LENGTH_LONG);
                             e.printStackTrace();
                         }
                     }
@@ -78,7 +79,7 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Log.i("Error", error.toString());
-                        Toast.makeText(LoginActivity.this, "Error", Toast.LENGTH_SHORT);
+                        Toast.makeText(LoginActivity.this, "Error", Toast.LENGTH_LONG);
                     }
                 };
                 LoginRequest loginRequest = new LoginRequest(edEmail.getText().toString(), edPassword.getText().toString(), listener, errorListener);

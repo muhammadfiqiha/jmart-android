@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchItem"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|always"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/addListItem"
+        android:icon="@drawable/ic_baseline_add_box_24"
+        android:title="Add List"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/profileItem"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        android:visible="true"/>
+
+</menu>
