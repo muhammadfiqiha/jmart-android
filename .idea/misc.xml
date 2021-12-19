@@ -3,17 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_about_me.xml" value="0.18" />
-        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_create_product.xml" value="0.25" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_about_me.xml" value="0.25" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_create_product.xml" value="0.22540983606557377" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_invoice_history.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_listview.xml" value="0.1" />
-        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_listview_payment.xml" value="0.11005434782608696" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_main.xml" value="0.23766816143497757" />
         <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_main2.xml" value="0.1" />
-        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_payment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_phone_top_up.xml" value="0.17" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_product_detail.xml" value="0.22" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/layout/fragment_product_page1.xml" value="0.25" />
-        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/menu/menu.xml" value="0.22" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/menu/menu.xml" value="0.25" />
+        <entry key="..\:/Users/Fiqih/OneDrive/Documents/Tugas Kuliah/ProgramOOP/Program/jmartandroid/app/src/main/res/menu/menu_aboutme.xml" value="0.20416666666666666" />
       </map>
     </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/javadoc" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

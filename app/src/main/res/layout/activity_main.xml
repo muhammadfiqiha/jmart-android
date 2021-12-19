@@ -11,9 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="4dp"
         android:layout_marginEnd="1dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardViewProduct1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,13 +98,14 @@
 
             <ListView
                 android:id="@+id/listProduct"
-                android:layout_width="410dp"
-                android:layout_height="614dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="1dp"
+                android:entries="@+id/labelListProduct"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/goButton" />
+                app:layout_constraintTop_toBottomOf="@+id/prevButton" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -147,7 +146,7 @@
                 android:layout_marginEnd="30dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/productName"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
@@ -164,7 +163,7 @@
             <EditText
                 android:id="@+id/editLowestPrice"
                 android:layout_width="152dp"
-                android:layout_height="37dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="5dp"
                 android:ems="10"
@@ -188,7 +187,7 @@
             <EditText
                 android:id="@+id/editHighestPrice"
                 android:layout_width="152dp"
-                android:layout_height="37dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="5dp"
                 android:ems="10"
@@ -264,6 +263,44 @@
                 android:entries="@array/productCategory"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/usedCheckBox" />
+
+            <EditText
+                android:id="@+id/editAccountId"
+                android:layout_width="152dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="Owner ID"
+                android:textSize="15dp"
+                android:inputType="number"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/productCategory" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/applyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="60dp"
+                android:text="Apply"
+                android:textSize="15dp"
+                app:layout_constraintTop_toBottomOf="@+id/editAccountId"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/clearButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="60dp"
+                android:text="Clear"
+                android:textSize="15dp"
+                app:layout_constraintTop_toBottomOf="@+id/editAccountId"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -1,68 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".RegisterActivity">
 
     <LinearLayout
-        android:id="@+id/layoutReg1"
-        android:layout_width="match_parent"
-        android:layout_height="195dp"
-        android:orientation="vertical"></LinearLayout>
+        android:id="@+id/linearLayoutReg1"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReg2"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg1" />
 
     <EditText
         android:id="@+id/editTextTextPersonNameReg"
-        android:layout_width="245dp"
-        android:layout_height="64dp"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
         android:ems="10"
         android:hint="Name"
-        android:inputType="textPersonName" />
+        android:autofillHints="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/linearLayoutReg2"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg1"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayoutReg3"/>
 
     <LinearLayout
-        android:id="@+id/layoutReg2"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:orientation="vertical"></LinearLayout>
+        android:id="@+id/linearLayoutReg3"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReg4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonNameReg"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReg5"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg4" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddressReg"
-        android:layout_width="245dp"
-        android:layout_height="64dp"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
         android:ems="10"
         android:hint="Email"
-        android:inputType="textEmailAddress" />
+        android:autofillHints="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toEndOf="@+id/linearLayoutReg5"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg4"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayoutReg6"/>
 
     <LinearLayout
-        android:id="@+id/layoutReg3"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:orientation="vertical"></LinearLayout>
+        android:id="@+id/linearLayoutReg6"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReg7"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddressReg"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReg8"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg7" />
 
     <EditText
         android:id="@+id/editTextTextPasswordReg"
-        android:layout_width="247dp"
-        android:layout_height="56dp"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        app:layout_constraintStart_toEndOf="@+id/linearLayoutReg8"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg7"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayoutReg9"/>
 
     <LinearLayout
-        android:id="@+id/layoutReg4"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:orientation="vertical"></LinearLayout>
+        android:id="@+id/linearLayoutReg9"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg7" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <LinearLayout
+        android:id="@+id/linearLayoutReg10"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPasswordReg"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReg11"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg10" />
+
+    <Button
         android:id="@+id/registerButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
-        android:text="Register" />
-</LinearLayout>
+        android:text="Register"
+        app:layout_constraintStart_toEndOf="@+id/linearLayoutReg11"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg10"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayoutReg12"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReg12"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutReg10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

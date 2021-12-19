@@ -48,6 +48,16 @@
                 app:layout_constraintTop_toBottomOf="@+id/accDetails" />
 
             <TextView
+                android:id="@+id/logAccName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accDetails" />
+
+            <TextView
                 android:id="@+id/accEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,6 +69,16 @@
                 app:layout_constraintTop_toBottomOf="@+id/accName" />
 
             <TextView
+                android:id="@+id/logAccEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accName" />
+
+            <TextView
                 android:id="@+id/accBalance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,6 +87,16 @@
                 android:text="Balance"
                 android:textSize="14dp"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accEmail" />
+
+            <TextView
+                android:id="@+id/logAccBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/accEmail" />
 
             <EditText
@@ -139,39 +169,39 @@
                     <EditText
                         android:id="@+id/editStoreName"
                         android:layout_width="match_parent"
-                        android:layout_height="60dp"
-                        android:layout_marginTop="25dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Name"
+                        android:hint="Name"
                         android:textSize="15dp"
                         app:layout_constraintTop_toBottomOf="@+id/registerStore"/>
 
                     <EditText
                         android:id="@+id/editStoreAddress"
                         android:layout_width="match_parent"
-                        android:layout_height="60dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:ems="10"
                         android:inputType="textPostalAddress"
-                        android:text="Address"
+                        android:hint="Address"
                         android:textSize="15dp"
                         app:layout_constraintTop_toBottomOf="@+id/editStoreName"/>
 
                     <EditText
                         android:id="@+id/editStorePhone"
                         android:layout_width="match_parent"
-                        android:layout_height="60dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:ems="10"
                         android:inputType="phone"
-                        android:text="Phone Number"
+                        android:hint="Phone Number"
                         android:textSize="15dp"
                         app:layout_constraintTop_toBottomOf="@+id/editStoreAddress"/>
 
@@ -179,8 +209,8 @@
                         android:id="@+id/registerStoreButton"
                         android:layout_width="110dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="25dp"
-                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="30dp"
                         android:text="Register"
                         android:textSize="13dp"
                         app:layout_constraintTop_toBottomOf="@+id/editStorePhone"
@@ -190,7 +220,7 @@
                         android:id="@+id/cancelRegisterStoreButton"
                         android:layout_width="110dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="25dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="10dp"
                         android:text="Cancel"
@@ -245,6 +275,16 @@
                         app:layout_constraintTop_toBottomOf="@+id/store" />
 
                     <TextView
+                        android:id="@+id/logStoreName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20dp"
+                        android:textSize="14dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/store" />
+
+                    <TextView
                         android:id="@+id/storeAddress"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -256,6 +296,16 @@
                         app:layout_constraintTop_toBottomOf="@+id/storeName" />
 
                     <TextView
+                        android:id="@+id/logStoreAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20dp"
+                        android:textSize="14dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/storeName" />
+
+                    <TextView
                         android:id="@+id/storePhone"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -264,6 +314,16 @@
                         android:text="Phone Number"
                         android:textSize="14dp"
                         app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/storeAddress" />
+
+                    <TextView
+                        android:id="@+id/logStorePhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20dp"
+                        android:textSize="14dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/storeAddress" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
