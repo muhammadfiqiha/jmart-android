@@ -30,6 +30,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.view.MenuItem;
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         MenuItem addList = menu.findItem(R.id.addListItem);
 
         addList.setVisible(LoginActivity.getLoggedAccount().store != null);
-
+        
         return true;
     }
 
